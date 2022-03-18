@@ -1,0 +1,44 @@
+.hero-section {
+  background-image: url("../../assets/images/strawberries-blackberries-and-sliced-fruits-1510693.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  animation: animateHeroImage 15s linear infinite alternate;
+  position: relative;
+  /* background-attachment: fixed; */
+}
+
+@keyframes animateHeroImage {
+  0% {
+    background-image: url("../../assets/images/salmon-with-bread-and-flower-3504874.jpg");
+  }
+  50% {
+    background-image: url("../../assets/images/strawberries-blackberries-and-sliced-fruits-1510693.jpg");
+  }
+  100% {
+    background-image: url("../../assets/images/anna-volkova-LeU-Tdabc5E-unsplash.jpg");
+  }
+}
+.hero-overlay {
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+.hero-text p {
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
