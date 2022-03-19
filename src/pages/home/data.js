@@ -26,3 +26,9 @@ export const whyUsThree = {
     "Our food is easy to swallow, and the prices are too! We deal direct with some of the best suppliers in the Country so you'll be guaranteed great quality food on any budget.",
   contentClass: "content-text",
 };
+
+export const testimonials = [
+  "Thank you very much for the fabulous food & service at our wedding. All the guests commented on how good the food was. Please pass our thanks on to your staff as well. Thanks again.",
+  "The quality of the food was far superior to anything I imagined, and so many of our guests commented about how delicious it was. I will definitely recommend you to any friends who are throwing parties up here!",
+  "We were really very impressed with your punctuality and the quantity and quality of the food provided. Especially flexibility in catering for more people than was originally expected was a great favour.",
+];

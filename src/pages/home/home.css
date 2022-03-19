@@ -49,3 +49,27 @@
   height: 90vh;
   object-fit: cover;
 }
+.testimonial-container {
+  position: relative;
+}
+.testimonials {
+  width: 50%;
+  margin: auto;
+}
+.testimonials div {
+  width: 100%;
+}
+.previous-arrow,
+.next-arrow {
+  width: 5%;
+  position: absolute;
+  top: 0;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.previous-arrow {
+  right: 3%;
+}
+.next-arrow {
+  right: 0%;
+}

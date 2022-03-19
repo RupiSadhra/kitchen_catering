@@ -4,6 +4,7 @@ import "./home.css";
 import Content from "../../components/Content";
 import { aboutContent } from "./data";
 import WhyUsSection from "./components/WhyUsSection";
+import Testimonial from "./components/Testimonial";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Content {...aboutContent} />
       </div>
       <WhyUsSection />
+      <Testimonial />
     </div>
   );
 };
