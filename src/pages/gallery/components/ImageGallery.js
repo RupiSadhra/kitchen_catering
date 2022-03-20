@@ -3,7 +3,15 @@ import { galleryImg } from "../data";
 
 const ImageGallery = () => {
   const galleryItems = galleryImg.map((img, index) => {
-    return <img src={img}></img>;
+    return (
+      <>
+        <div></div>
+        <div className="gallery-container">
+          <img className="gallery-image" src={img}></img>
+          <div class="gallery-overlay"></div>
+        </div>
+      </>
+    );
   });
   return (
     <>
