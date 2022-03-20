@@ -1,7 +1,3 @@
-export const headerData = {
-  heading: "Check Out our Menus...",
-  contentClass: "hero-text",
-};
 export const menuData = {
   heading: "The Kitchen Catering Menus",
   description:
