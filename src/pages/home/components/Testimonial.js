@@ -27,9 +27,9 @@ const Testimonial = () => {
         <div className="next-arrow" onClick={increaseCounter}>
           <MdArrowForwardIos />
         </div>
-        <div className="testimonials margin-top">
+        <div className="testimonials margin-top-extra">
           {testimonials.map((testimonial, index) => {
-            return <div>{index === counter ? testimonial : null}</div>;
+            return <p>{index === counter ? testimonial : null}</p>;
           })}
         </div>
       </div>

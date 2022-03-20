@@ -53,12 +53,12 @@
   position: relative;
 }
 .testimonials {
-  width: 50%;
+  width: 40%;
   margin: auto;
+  min-height: 15vh;
+  position: relative;
 }
-.testimonials div {
-  width: 100%;
-}
+
 .previous-arrow,
 .next-arrow {
   width: 5%;

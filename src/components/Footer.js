@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="footer">
+      <div className="footer margin-top-extra">
         <div className="three-column-grid margin-top margin-bottom container-width">
           <section>
             <h2 class="margin-bottom-small">Quick Links</h2>

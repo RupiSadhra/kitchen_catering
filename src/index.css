@@ -58,6 +58,9 @@ h2 {
 .margin-bottom-small {
   margin-bottom: 2rem;
 }
+.padding-top {
+  padding-top: 4rem;
+}
 .container-width {
   width: 90%;
   margin-left: auto;
@@ -161,7 +164,6 @@ h2 {
 
 /* Footer */
 .footer {
-  margin-top: 4rem;
   background-color: #000;
   color: white;
 }
@@ -174,6 +176,17 @@ h2 {
 .footer-links {
   display: inline-block;
   padding-top: 0.3rem;
+}
+
+/* Button */
+.button-white {
+  color: white;
+  border: 2px solid white;
+  margin: 1rem 0;
+  padding: 0.8rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
 }
 @media (max-width: 991px) {
   .nav-links {

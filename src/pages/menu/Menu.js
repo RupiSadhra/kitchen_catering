@@ -1,7 +1,15 @@
 import React from "react";
+import HeaderImage from "./components/HeaderImage";
+import MenuSection from "./components/MenuSection";
+import "./menu.css";
 
 const Menu = () => {
-  return <div>Menu</div>;
+  return (
+    <>
+      <HeaderImage />
+      <MenuSection />
+    </>
+  );
 };
 
 export default Menu;
