@@ -5,7 +5,7 @@ const ImageGallery = () => {
   const galleryItems = galleryImg.map((img, index) => {
     return (
       <>
-        <div></div>
+        <div className="image-number center-element">0{index + 1}.</div>
         <div className="gallery-container">
           <img className="gallery-image" src={img}></img>
           <div class="gallery-overlay"></div>

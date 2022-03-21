@@ -225,6 +225,9 @@ h2 {
   .nav-links {
     width: 80%;
   }
+  .three-column-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media (max-width: 768px) {
   .nav-links {
@@ -232,5 +235,10 @@ h2 {
   }
   .hamburger {
     display: block;
+  }
+}
+@media (max-width: 768px) {
+  .three-column-grid {
+    grid-template-columns: 1fr;
   }
 }
