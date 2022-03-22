@@ -1,3 +1,17 @@
 .contact-header {
   background-image: url("../../assets/images/contact.jpg");
 }
+.contactinfo li a {
+  color: #000;
+  font-size: 1.1rem;
+}
+.contactinfo li {
+  display: flex;
+}
+.contactinfo li svg {
+  width: 10%;
+  font-size: 1.2rem;
+}
+.contactinfotext {
+  font-size: 1.2rem;
+}

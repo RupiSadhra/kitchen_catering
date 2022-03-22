@@ -58,8 +58,14 @@ h2 {
 .margin-bottom-small {
   margin-bottom: 2rem;
 }
+.margin-top-small {
+  margin-top: 2rem;
+}
 .padding-top {
   padding-top: 4rem;
+}
+.padding-top-small {
+  padding-top: 1rem;
 }
 .container-width {
   width: 90%;
@@ -85,6 +91,9 @@ h2 {
 }
 .grid-gap-extra {
   grid-gap: 8rem;
+}
+.align-start {
+  align-items: flex-start;
 }
 /* Navbar */
 
@@ -220,7 +229,28 @@ h2 {
   text-align: center;
   z-index: 99;
 }
+.content-text h1 {
+  font-size: 2rem;
+}
 
+/* contact form  */
+
+.contact-form input,
+.contact-form textarea,
+button[type="submit"] {
+  border: 1px solid #000;
+  min-height: 2.5rem;
+  margin-top: 1.2rem;
+  padding-left: 0.5rem;
+}
+
+button[type="submit"] {
+  width: 50%;
+  background-color: #000;
+  color: white;
+  text-transform: uppercase;
+  float: right;
+}
 @media (max-width: 991px) {
   .nav-links {
     width: 80%;
