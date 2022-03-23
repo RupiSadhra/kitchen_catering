@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { galleryImg } from "../data";
+import { MdClear } from "react-icons/md";
 
 const ImageGallery = () => {
   const [currentimg, setCurrentimg] = useState("");
@@ -30,6 +31,13 @@ const ImageGallery = () => {
         {galleryItems}
       </div>
       <div className={`image-container  ${modal ? "show" : "hide"}`}>
+        <span className="modal-close">
+          <MdClear
+            onClick={() => {
+              setModal(false);
+            }}
+          />
+        </span>
         <div className="image-modal">
           <img className="modalimage" src={currentimg} />
         </div>
