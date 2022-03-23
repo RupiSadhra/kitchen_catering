@@ -186,6 +186,10 @@ h2 {
   display: inline-block;
   padding-top: 0.3rem;
 }
+.top-reviews {
+  width: 150px;
+  height: 150px;
+}
 
 /* Button */
 .button-white {

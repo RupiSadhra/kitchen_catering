@@ -44,8 +44,8 @@
   width: 100vw;
   height: 100vh;
   background-color: #000;
-
-  transition: all 0.4s ease;
+  display: none;
+  transition: all 2s ease;
 }
 .hide {
   display: none;
@@ -56,7 +56,7 @@
 .image-modal {
   width: 80%;
   height: 80%;
-
+  overflow: hidden;
   padding: 2rem;
   position: absolute;
   top: 50%;

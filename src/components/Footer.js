@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import TopReviews from "../assets/images/topreviews.jpeg";
 
 const Footer = () => {
   return (
@@ -36,7 +37,13 @@ const Footer = () => {
             </a>
           </section>
           <section class="margin-bottom-small">
-            <h2>Best Catering Service</h2>
+            <h2 class="margin-bottom-small">Best Catering Service</h2>
+            <a
+              href="https://www.topreviews.co.nz/best-catering-auckland/"
+              target="_blank"
+            >
+              <img className="top-reviews" src={TopReviews}></img>
+            </a>
           </section>
         </div>
       </div>
