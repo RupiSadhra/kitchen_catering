@@ -6,6 +6,7 @@ import Content from "../../../components/Content";
 import { whyUsOne } from "../data";
 import { whyUsTwo } from "../data";
 import { whyUsThree } from "../data";
+import Button from "../../../components/Button";
 
 // import Image1 from
 
@@ -14,11 +15,21 @@ const WhyUsSection = () => {
     <>
       <div className="why-us container-width-extra grid-gap-extra margin-top-extra two-column-grid">
         <img src={Image1} />
-        <Content {...whyUsOne} />
-        <Content {...whyUsTwo} />
+        <Content {...whyUsOne}>
+          <Button path="/gallery" text="Our Work" buttonStyle="button-black" />
+        </Content>
+        <Content {...whyUsTwo}>
+          <Button
+            path="/contact"
+            text="Send Message"
+            buttonStyle="button-black"
+          />
+        </Content>
         <img src={Image2} />
         <img src={Image3} />
-        <Content {...whyUsThree} />
+        <Content {...whyUsThree}>
+          <Button path="/menu" text="Our Menus" buttonStyle="button-black" />
+        </Content>
       </div>
     </>
   );

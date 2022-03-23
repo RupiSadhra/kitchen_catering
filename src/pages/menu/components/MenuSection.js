@@ -5,12 +5,15 @@ import { Link } from "react-router-dom";
 import lunchMenu from "../../../assets/menu/TheMenu.pdf";
 import fingerFoodMenu from "../../../assets/menu/FingerFoodMenu.pdf";
 import buffetMenu from "../../../assets/menu/BuffetMenu.pdf";
+import Button from "../../../components/Button";
 
 const MenuSection = () => {
   return (
     <>
       <div className="two-column-grid container-width-extra grid-gap-extra margin-top-extra ">
-        <Content {...menuData} />
+        <Content {...menuData}>
+          <Button path="/contact" text="Order Now" buttonStyle="button-black" />
+        </Content>
         <div className="menu-container">
           <div className="hero-overlay"></div>
           <div className="menus center-element container-width">

@@ -193,13 +193,26 @@ h2 {
 
 /* Button */
 .button-white {
+  display: inline-block;
   color: white;
   border: 2px solid white;
+  margin: 2rem 0;
+  padding: 0.8rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  width: initial;
+}
+.button-black {
+  color: #000;
+  border: 2px solid #000;
   margin: 1rem 0;
   padding: 0.8rem 1.5rem;
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 600;
+  width: initial;
+  display: inline-block;
 }
 
 /* Header Image */
@@ -232,6 +245,9 @@ h2 {
   font-size: 2em;
   text-align: center;
   z-index: 99;
+}
+.content-text {
+  overflow: hidden;
 }
 .content-text h1 {
   font-size: 2rem;

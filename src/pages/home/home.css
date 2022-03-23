@@ -37,6 +37,9 @@
   color: white;
   font-size: 2em;
   text-align: center;
+  width: 80%;
+  height: 30%;
+  overflow: hidden;
 }
 .hero-text p {
   font-size: 1.8rem;

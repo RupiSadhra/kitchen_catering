@@ -1,18 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const styleClass = ["btn-primary", "btn-outline"];
-const textColor = ["white", "black"];
-
-const Button = ({ children, buttonStyle, buttonColor }) => {
-  let checkButtonStyle = styleClass.includes(buttonStyle)
-    ? buttonStyle
-    : styleClass[0];
-  let checkButtonColor = textColor.includes(buttonStyle)
-    ? buttonStyle
-    : textColor[0];
+const Button = ({ text, buttonStyle, path }) => {
   return (
     <>
-      <button className={styleClass}>{children}</button>
+      <Link to={path} className={`${buttonStyle}`}>
+        {text}
+      </Link>
     </>
   );
 };
