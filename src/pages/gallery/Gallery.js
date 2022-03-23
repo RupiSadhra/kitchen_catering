@@ -3,7 +3,6 @@ import HeaderImage from "../../components/HeaderImage";
 import "./gallery.css";
 
 import ImageGallery from "./components/ImageGallery";
-import ContactForm from "../../components/ContactForm";
 
 const Gallery = () => {
   return (
@@ -13,7 +12,6 @@ const Gallery = () => {
         headerText="Some pictures of our work..."
       />
       <ImageGallery />
-      <ContactForm />
     </>
   );
 };
