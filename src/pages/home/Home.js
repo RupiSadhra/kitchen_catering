@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <HeroSection />
-      <div className="container-width-extra margin-top-extra">
+      <div className="about-us container-width-extra margin-top-extra">
         <Content {...aboutContent} />
       </div>
       <WhyUsSection />

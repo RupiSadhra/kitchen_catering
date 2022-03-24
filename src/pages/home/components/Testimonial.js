@@ -29,7 +29,7 @@ const Testimonial = () => {
         </div>
         <div className="testimonials margin-top-extra">
           {testimonials.map((testimonial, index) => {
-            return <p>{index === counter ? testimonial : null}</p>;
+            return <p key={index}>{index === counter ? testimonial : null}</p>;
           })}
         </div>
       </div>

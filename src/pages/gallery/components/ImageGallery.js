@@ -9,7 +9,9 @@ const ImageGallery = () => {
   const galleryItems = galleryImg.map((img, index) => {
     return (
       <>
-        <div className="image-number center-element">0{index + 1}.</div>
+        <div key={`num${index}`} className="image-number center-element">
+          0{index + 1}.
+        </div>
         <div
           className="gallery-container"
           onClick={() => {
@@ -19,7 +21,7 @@ const ImageGallery = () => {
           }}
         >
           <img key={index} className="gallery-image" src={img}></img>
-          <div class="gallery-overlay"></div>
+          <div className="gallery-overlay"></div>
         </div>
       </>
     );

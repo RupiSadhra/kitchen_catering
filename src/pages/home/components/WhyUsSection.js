@@ -14,7 +14,7 @@ const WhyUsSection = () => {
   return (
     <>
       <div className="why-us container-width-extra grid-gap-extra margin-top-extra two-column-grid">
-        <img src={Image1} />
+        <img className="img1" src={Image1} />
         <Content {...whyUsOne}>
           <Button path="/gallery" text="Our Work" buttonStyle="button-black" />
         </Content>
@@ -25,8 +25,8 @@ const WhyUsSection = () => {
             buttonStyle="button-black"
           />
         </Content>
-        <img src={Image2} />
-        <img src={Image3} />
+        <img className="img2" src={Image2} />
+        <img className="img3" src={Image3} />
         <Content {...whyUsThree}>
           <Button path="/menu" text="Our Menus" buttonStyle="button-black" />
         </Content>

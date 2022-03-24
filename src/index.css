@@ -5,10 +5,6 @@
   font-family: Avenir;
   src: url("./assets/font/AvenirLTStd-Book.otf");
 }
-@font-face {
-  font-family: Bentonite;
-  src: url("./assets/font/Bentonite.ttf");
-}
 
 * {
   width: 100%;
@@ -123,6 +119,11 @@ h2 {
 .nav-links a {
   color: white;
   text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+.nav-links a:hover {
+  font-weight: bold;
+  font-size: 1rem;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -172,6 +173,11 @@ h2 {
   font-size: 2rem;
   font-weight: 500;
   color: #000;
+  transition: all 0.2s ease;
+}
+.mobile-nav-links li a:hover {
+  font-weight: bold;
+  font-size: 2.1rem;
 }
 
 /* Footer */
@@ -205,7 +211,9 @@ h2 {
   font-size: 1rem;
   font-weight: 600;
   width: initial;
+  transition: all 0.4s ease;
 }
+
 .button-black {
   color: #000;
   border: 2px solid #000;
@@ -216,8 +224,14 @@ h2 {
   font-weight: 600;
   width: initial;
   display: inline-block;
+  transition: all 0.4s ease;
 }
-
+.button-black:hover,
+.button-white:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
 /* Header Image */
 .header-container {
   width: 100%;
@@ -299,5 +313,8 @@ button[type="submit"] {
   .three-column-grid,
   .two-column-grid {
     grid-template-columns: 1fr;
+  }
+  .img2 {
+    grid-row: 3/4;
   }
 }

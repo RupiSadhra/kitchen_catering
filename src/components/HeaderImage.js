@@ -4,7 +4,7 @@ const HeaderImage = ({ headerClass, headerText }) => {
   return (
     <>
       <div className={`header-container ${headerClass}`}>
-        <section class="header-text">
+        <section className="header-text">
           <h1>{headerText}</h1>
         </section>
 
