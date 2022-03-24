@@ -31,14 +31,14 @@
 }
 .hero-text {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 2em;
   text-align: center;
-  width: 80%;
-  height: 30%;
+  width: 90%;
+  height: 50%;
   overflow: hidden;
 }
 .hero-text p {
@@ -73,4 +73,15 @@
 }
 .next-arrow {
   right: 0%;
+}
+
+@media (max-width: 1200px) {
+  .why-us img {
+    height: 75vh;
+  }
+}
+@media (max-width: 1000px) {
+  .why-us img {
+    height: 60vh;
+  }
 }

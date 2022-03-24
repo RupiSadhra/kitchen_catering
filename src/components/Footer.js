@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer margin-top-extra">
-        <div className="three-column-grid margin-top margin-bottom container-width">
+        <div className="three-column-grid grid-gap-small margin-top margin-bottom container-width-extra">
           <section>
             <h2 class="margin-bottom-small">Quick Links</h2>
             <ul className="footer-nav-links">

@@ -89,6 +89,9 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+.grid-gap-small {
+  grid-gap: 4rem;
+}
 .grid-gap-extra {
   grid-gap: 8rem;
 }
@@ -245,6 +248,7 @@ h2 {
   font-size: 2em;
   text-align: center;
   z-index: 99;
+  width: 90%;
 }
 .content-text {
   overflow: hidden;
@@ -271,6 +275,12 @@ button[type="submit"] {
   text-transform: uppercase;
   float: right;
 }
+
+@media (max-width: 1200px) {
+  .container-width-extra {
+    width: 85%;
+  }
+}
 @media (max-width: 991px) {
   .nav-links {
     width: 80%;
@@ -286,9 +296,8 @@ button[type="submit"] {
   .hamburger {
     display: block;
   }
-}
-@media (max-width: 768px) {
-  .three-column-grid {
+  .three-column-grid,
+  .two-column-grid {
     grid-template-columns: 1fr;
   }
 }

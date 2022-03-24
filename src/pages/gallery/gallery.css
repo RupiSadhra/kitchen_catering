@@ -79,3 +79,15 @@
   cursor: pointer;
   font-size: 2rem;
 }
+@media (max-width: 768px) {
+  .image-modal {
+    height: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-modal {
+    width: 95%;
+    height: 45%;
+  }
+}

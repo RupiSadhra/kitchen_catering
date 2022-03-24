@@ -30,3 +30,14 @@
   text-align: center;
   width: initial;
 }
+
+@media (max-width: 991px) {
+  .menu-container {
+    height: 60vh;
+  }
+}
+@media (max-width: 576px) {
+  .menu-container {
+    height: 50vh;
+  }
+}
